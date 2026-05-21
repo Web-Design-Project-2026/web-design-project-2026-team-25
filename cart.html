@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/main.css" />
+
+    <title>Your Cart</title>
+  </head>
+  <body class="cart-body">
+    <header id="header"></header>
+
+    <div class="bg-stars">
+      <span class="star star1">✦</span>
+      <span class="star star2">✦</span>
+      <span class="star star3">✦</span>
+      <span class="star star4">✦</span>
+      <span class="star star5">✦</span>
+      <span class="star star6">✦</span>
+      <span class="star star7">✦</span>
+      <span class="star star8">✦</span>
+    </div>
+
+    <main class="cart-page">
+      <section class="cart-content">
+        <div class="cart-title-row">
+          <a href="index.html" class="black-arrow">←</a>
+          <h1>Your Cart</h1>
+        </div>
+
+        <div class="cart-layout">
+          <div class="cart-left">
+            <div id="cart-items"></div>
+
+            <h2 class="total-price">Total: <span id="cart-total"></span></h2>
+          </div>
+
+          <form class="customer-info">
+            <h2>Your Information</h2>
+
+            <div class="form-row">
+              <input type="text" placeholder="First name" required />
+              <input type="text" placeholder="Last name" required />
+            </div>
+
+            <input type="email" placeholder="Email address" required />
+            <input type="tel" placeholder="Phone number" required />
+            <input type="text" placeholder="Street address" required />
+
+            <div class="form-row">
+              <input type="text" placeholder="Postcode" required />
+              <input type="text" placeholder="City" required />
+            </div>
+          </form>
+        </div>
+
+        <div class="cart-buttons">
+          <a href="ticketpage.html" class="cart-btn continue-btn">
+            Continue Shopping
+          </a>
+          <button class="cart-btn payment-btn disabled-btn">
+            Go To Payment
+          </button>
+        </div>
+      </section>
+    </main>
+    <div id="footer"></div>
+    <script src="../JS/script.JS"></script>
+  </body>
+</html>

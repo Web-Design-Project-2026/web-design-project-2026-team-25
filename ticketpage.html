@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/main.css" />
+
+    <title>Tickets</title>
+  </head>
+  <body class="tickets-body">
+    <header id="header"></header>
+
+    <div class="bg-stars">
+      <span class="star star1">✦</span>
+      <span class="star star2">✦</span>
+      <span class="star star3">✦</span>
+      <span class="star star4">✦</span>
+      <span class="star star5">✦</span>
+      <span class="star star6">✦</span>
+      <span class="star star7">✦</span>
+      <span class="star star8">✦</span>
+    </div>
+
+    <main class="ticket-page">
+      <section class="ticket-hero">
+        <h1>Tickets</h1>
+      </section>
+      <section class="ticket-list">
+        <div class="ticket-row">
+          <img
+            src="../images/standard.png"
+            alt="Ticket Standard with a image of the festival area"
+            class="ticket-icon"
+          />
+          <div class="ticket-info">
+            <h2>Standard Friday & Saturday</h2>
+            <p>3000kr</p>
+          </div>
+          <div class="ticket-actions">
+            <input type="number" class="ticket-quantity" min="1" value="1" />
+            <button
+              class="add-cart-btn"
+              data-name="Standard Friday & Saturday"
+              data-price="3000"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+        <div class="ticket-row">
+          <img
+            src="../images/golden.png"
+            alt="Ticket golden, image of VIP area"
+            class="ticket-icon"
+          />
+          <div class="ticket-info">
+            <h2>Golden Friday & Saturday</h2>
+            <p>5000kr</p>
+          </div>
+          <div class="ticket-actions">
+            <input type="number" class="ticket-quantity" min="1" value="1" />
+            <button
+              class="add-cart-btn"
+              data-name="Golden Friday & Saturday"
+              data-price="5000"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+        <div class="ticket-row">
+          <img
+            src="../images/veloramockup2.png"
+            alt="Ticket Table, image of the VIP area with tables"
+            class="ticket-icon"
+          />
+          <div class="ticket-info">
+            <h2>Table Friday & Saturday</h2>
+            <p>8500kr & min. spend 1000kr/pers</p>
+          </div>
+          <div class="ticket-actions">
+            <input type="number" class="ticket-quantity" min="1" value="1" />
+            <button
+              class="add-cart-btn"
+              data-name="Table Friday & Saturday"
+              data-price="8500"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+        <div class="ticket-row">
+          <img
+            src="../images/festival_square.png"
+            alt="Ticket Standard Friday, image of the festival area"
+            class="ticket-icon"
+          />
+          <div class="ticket-info">
+            <h2>Standard Friday</h2>
+            <p>1700kr</p>
+          </div>
+          <div class="ticket-actions">
+            <input type="number" class="ticket-quantity" min="1" value="1" />
+            <button
+              class="add-cart-btn"
+              data-name="Standard Friday"
+              data-price="1700"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+        <div class="ticket-row">
+          <img
+            src="../images/festival_square.png"
+            alt="Ticket Standard Saturday, image of the festival area"
+            class="ticket-icon"
+          />
+          <div class="ticket-info">
+            <h2>Standard Saturday</h2>
+            <p>1700kr</p>
+          </div>
+          <div class="ticket-actions">
+            <input type="number" class="ticket-quantity" min="1" value="1" />
+            <button
+              class="add-cart-btn"
+              data-name="Standard Saturday"
+              data-price="1700"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+        <div class="ticket-row">
+          <img
+            src="../images/preparty.png"
+            alt="Ticket Pre-Party, image of the pre-party area"
+            class="ticket-icon"
+          />
+          <div class="ticket-info">
+            <h2>Pre-Party</h2>
+            <p>399kr</p>
+          </div>
+          <div class="ticket-actions">
+            <input type="number" class="ticket-quantity" min="1" value="1" />
+            <button class="add-cart-btn" data-name="Pre Party" data-price="399">
+              Add to cart
+            </button>
+          </div>
+        </div>
+        <div class="ticket-row">
+          <img
+            src="../images/afterparty.png"
+            alt="Ticket After-Party, image of the after-party area"
+            class="ticket-icon"
+          />
+          <div class="ticket-info">
+            <h2>After-Party</h2>
+            <p>499kr</p>
+          </div>
+          <div class="ticket-actions">
+            <input type="number" class="ticket-quantity" min="1" value="1" />
+            <button
+              class="add-cart-btn"
+              data-name="After Party"
+              data-price="499"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="footer"></div>
+    <script src="../JS/script.JS"></script>
+  </body>
+</html>
